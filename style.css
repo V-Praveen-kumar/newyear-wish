@@ -32,3 +32,21 @@ body {
   transition: opacity 1.5s ease;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
 }
+
+/* ---------- Mobile Optimization ---------- */
+@media (max-width: 600px) {
+  #text {
+    font-size: 1.5rem;
+    padding: 0 16px;
+    text-align: center;
+  }
+
+  #photo {
+    max-width: 80vw;   /* makes image large on phone */
+    border-radius: 16px;
+  }
+
+  #container {
+    gap: 16px;
+  }
+}
