@@ -26,12 +26,14 @@ body {
 }
 
 #photo {
-  max-width: 280px;
-  border-radius: 14px;
+  width: 80vw;          /* responsive on phones */
+  max-width: 420px;     /* not too big on desktop */
+  border-radius: 16px;
   opacity: 0;
   transition: opacity 1.5s ease;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
 }
+
 
 /* ---------- Mobile Optimization ---------- */
 @media (max-width: 600px) {
@@ -50,3 +52,4 @@ body {
     gap: 16px;
   }
 }
+
